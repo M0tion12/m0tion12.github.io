@@ -1,0 +1,66 @@
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #000;
+}
+
+.letter-header {
+    background-color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.letter-header h2 {
+    color: #C41230; /* UMD red color */
+    margin-bottom: 10px;
+}
+
+.umd-logo {
+    width: auto; /* Allow the image to keep its aspect ratio */
+    height: 100px; /* You can adjust this as needed */
+    margin: auto;
+    display: block;
+}
+
+
+.letter-container {
+    max-width: 600px;
+    margin: 50px auto; /* Increased top and bottom margin */
+    padding: 40px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background: #fff;
+}
+
+
+.date {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.letter-container p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.closing-container {
+    text-align: left;
+    margin-bottom: 20px; /* Add space below the closing container */
+}
+
+.signature {
+    display: block;
+    width: 150px; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px; /* Add space below the signature */
+    opacity: 0.7;
+}
+
+.director-title {
+    text-align: left;
+}
+
+
+
